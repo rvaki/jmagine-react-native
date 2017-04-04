@@ -5,4 +5,5 @@ React-Native application for Jmagine
 - cd to repo and > npm install
 # Install Android Application
 - react-native run-android `(Do not forget to install react-native first)`
+- Enable Internet connection on your device to fetch data
 
