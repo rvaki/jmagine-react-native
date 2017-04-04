@@ -1,0 +1,27 @@
+<Icon.Button name="map-marker" color="#007AFF" backgroundColor="#fff" size={20} iconStyle={{margin : 0, padding:0}} selectedIconStyle={{borderTopWidth:1,borderTopColor:'#007AFF'}}>
+
+        </Icon.Button>
+        <Icon.Button name="qrcode" color="#007AFF" backgroundColor="#fff" iconStyle={{margin : 0, padding:0 ,zIndex:-5}} size={20} selectedIconStyle={{borderTopWidth:1,borderTopColor:'#007AFF'}}>
+
+          </Icon.Button>
+        <Icon.Button name="map" color="#007AFF" backgroundColor="#fff" size={20} iconStyle={{margin : 0, padding:0}} selectedIconStyle={{borderTopWidth:1,borderTopColor:'#007AFF',padding:0}}>
+
+        </Icon.Button>
+
+        # icons tabbar
+
+<Text style={styles.rowTextAddress}>{rowData.address}</Text>
+/****listpoi**/
+<ListView style={styles.listParcours}
+dataSource={ds.cloneWithRows(this.state.pois)}
+renderRow={(rowData) =>
+  <View style={styles.rowParcours}>
+  <Image  style={styles.imgStretch}  source={{uri: rowData.img}}/>
+  <LinearGradient colors={['transparent', 'rgba(0,0,0,0.8)']} style={styles.linearGradient}>
+  <Text style={styles.rowTextTitle}>{rowData.title}</Text>
+  </LinearGradient>
+
+  </View>
+}/>
+
+<Text style={sliderStyles.buttonValidation}>Valider</Text>
