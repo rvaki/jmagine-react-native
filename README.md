@@ -1,5 +1,5 @@
 # jmagine-react-native
-React-Native application for Jmagine
+React-Native application for Jmagine project
 # Installation
 - Clone repository
 - cd to repo and > npm install
